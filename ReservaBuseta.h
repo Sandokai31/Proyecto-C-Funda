@@ -29,6 +29,8 @@ public:
 	string getplacaBuseta();
 	string getnombreChofer();
 	string getcostoTotal();
+
+	string toString();
 private:
 	string nombreTurista;
 	string numeroPasaporte;
