@@ -6,6 +6,7 @@ int main () {
 	
 	cout<<"-----Reserva de Busetas-----"<<endl;
 	cout<<"Sigma"<<endl;
+	cout<<"boy"<<endl;
 	return 0;
 }
 
