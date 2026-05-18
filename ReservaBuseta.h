@@ -1,6 +1,7 @@
 #ifndef RESERVABUSETA_H
 #define RESERVABUSETA_H
 #include<iostream>
+#include <sstream>
 using namespace std;
 
 class ReservaBuseta {
