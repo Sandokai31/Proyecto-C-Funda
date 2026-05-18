@@ -22,13 +22,13 @@ public:
 	string getnombreTurista();
 	string getnumeroPasaporte();
 	string getaeropuertoLlegada();
-	string getdistanciaKm();
-	string getcostoPorKm();
-	string getcostoPorPasajero();
-	string getprioridad();
+	int getdistanciaKm();
+	int getcostoPorKm();
+	int getcostoPorPasajero();
+	int getprioridad();
 	string getplacaBuseta();
 	string getnombreChofer();
-	string getcostoTotal();
+	int getcostoTotal();
 
 	string toString();
 private:
@@ -38,14 +38,14 @@ private:
 	string hotelDestino;
 	string fechaReserva;
 	string horaReserva;
-	string cantidadPasajeros; 
-	string distanciaKm;
-	string costoPorKm;
-	string costoPorPasajero;
-	string prioridad;
+	int cantidadPasajeros; 
+	int distanciaKm;
+	int costoPorKm;
+	int costoPorPasajero;
+	int prioridad;
 	string placaBuseta;
 	string nombreChofer;
-	string costoTotal;
+	int costoTotal;
 };
 
 #endif
