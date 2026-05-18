@@ -11,13 +11,13 @@ public:
 	void setnombreTurista(string nombreTurista);
 	void setnumeroPasaporte(string numeroPasaporte);
 	void setaeropuertoLlegada(string aeropuertoLlegada);
-	void setdistanciaKm(string distanciaKm);
-	void setcostoPorKm(string costoPorKm);
-	void setcostoPorPasajero(string costoPorPasajero);
-	void setprioridad(string prioridad);
+	void setdistanciaKm(int distanciaKm);
+	void setcostoPorKm(int costoPorKm);
+	void setcostoPorPasajero(int costoPorPasajero);
+	void setprioridad(int prioridad);
 	void setplacaBuseta(string placaBuseta);
 	void setnombreChofer(string nombreChofer);
-	void setcostoTotal(string costoTotal);
+	void setcostoTotal(int costoTotal);
 	
 	string getnombreTurista();
 	string getnumeroPasaporte();
